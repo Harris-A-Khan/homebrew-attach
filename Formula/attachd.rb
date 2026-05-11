@@ -1,28 +1,28 @@
 class Attachd < Formula
   desc "Host daemon for the Attach iOS app — tmux over Tailscale"
   homepage "https://github.com/Harris-A-Khan/homebrew-attach"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Harris-A-Khan/homebrew-attach/releases/download/v0.1.2/attachd-darwin-arm64"
-      sha256 "e287ee64495d68613b97f928cf06d222cf0d363d57095b2ee3204647a60a2ff5"
+      url "https://github.com/Harris-A-Khan/homebrew-attach/releases/download/v0.1.3/attachd-darwin-arm64"
+      sha256 "0bb21d7e5e969528775d16a638d4aa8012861bdc7bacf0a294bc283cfc7b2296"
     end
     on_intel do
-      url "https://github.com/Harris-A-Khan/homebrew-attach/releases/download/v0.1.2/attachd-darwin-amd64"
-      sha256 "5212b5e2051afbfaa0e5916bd5bf9371d027ed2f8c0829a8f45746c2f4390375"
+      url "https://github.com/Harris-A-Khan/homebrew-attach/releases/download/v0.1.3/attachd-darwin-amd64"
+      sha256 "f799c31c78854e83bf333a3728185e7645e498a9d74f26673f36948d1af056b6"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Harris-A-Khan/homebrew-attach/releases/download/v0.1.2/attachd-linux-arm64"
-      sha256 "fbd30a9bddec7a9c0f4e28368e0275debcd364bb7e162d6bdd31f6c3d34c0d20"
+      url "https://github.com/Harris-A-Khan/homebrew-attach/releases/download/v0.1.3/attachd-linux-arm64"
+      sha256 "890b4aed1e80d7816a54597e99fb65d19cb65b9fe9b91c958f8cf9b82cef1136"
     end
     on_intel do
-      url "https://github.com/Harris-A-Khan/homebrew-attach/releases/download/v0.1.2/attachd-linux-amd64"
-      sha256 "d6932adb76fd0065d04bbcaddab75a125a78d678adc6abb002f54b0b1d19a9b0"
+      url "https://github.com/Harris-A-Khan/homebrew-attach/releases/download/v0.1.3/attachd-linux-amd64"
+      sha256 "e8a13a6c0e86bdca4810ebda9fd31043d9d817e5369a5001bcdd0a4412475164"
     end
   end
 
